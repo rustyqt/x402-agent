@@ -125,6 +125,8 @@ Client: `on_before_payment_creation`, `on_after_payment_creation`, `on_payment_c
 - `x402/docs/` - Protocol documentation
 - `x402/specs/` - Protocol specifications
 - `x402/examples/` - Example implementations
+- `web3.py/` - Git submodule: https://github.com/ethereum/web3.py
+- `docs/` - Engineering notes and research
 
 ## Commands
 
@@ -302,6 +304,7 @@ In-depth research and development guides in `docs/`:
 
 - [`docs/x402-ecosystem-research.md`](docs/x402-ecosystem-research.md) — Where x402 is used (198 partners, networks, facilitators), discovery landscape and maturity (Bazaar limitations, all channels), how agents discover and provide services
 - [`docs/x402-seller-development-guide.md`](docs/x402-seller-development-guide.md) — Step-by-step guide to building a seller: service type choice, pricing patterns, hooks, Bazaar registration, idempotency, testnet-to-mainnet migration, deployment options, reference table of all Python examples
+- [`docs/x402-product-research.md`](docs/x402-product-research.md) — Viable products for a seller agent: tiered categories (data APIs, content processing, risk gates, AI inference, agent infra), pricing models, ecosystem gaps, real-world pricing examples, agent-as-product patterns
 
 ## GitHub
 
